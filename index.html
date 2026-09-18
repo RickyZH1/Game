@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#103f4a">
 <title>鲁迅公园九宫格银票挑战赛</title>
-<meta name="description" content="六队九宫格闯关、银票经济、晚餐潜伏者与神秘箱拍卖的现场规则手册。">
+<meta name="description" content="六队九宫格闯关、银票经济、晚餐个人潜伏者与实物拍卖的现场规则手册。">
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23103f4a'/%3E%3Cpath d='M13 15h38v34H13z' fill='%23fff8df'/%3E%3Cpath d='M13 26h38M13 38h38M26 15v34M38 15v34' stroke='%23b6872a' stroke-width='3'/%3E%3C/svg%3E">
 <style>
 :root{--ink:#153641;--muted:#5c7178;--forest:#103f4a;--gold:#b6872a;--gold2:#f5e7bd;--paper:#fffdf7;--mist:#eef4f2;--line:#d6e1dd;--red:#9c3f35;--shadow:0 12px 32px rgba(20,55,62,.10)}
@@ -20,13 +20,14 @@ main{max-width:1240px;margin:auto;padding:28px 20px 55px}section{margin-bottom:3
 .hours{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:13px}.hours span{background:var(--forest);color:white;padding:8px 12px;border-radius:7px}.hours b{color:#f3d37e}.shop{display:grid;grid-template-columns:repeat(4,1fr);gap:11px}.item{background:var(--paper);border:1px solid var(--line);border-top:4px solid var(--gold);border-radius:9px;padding:14px}.item.power{background:#fffaf0;border-color:#c49637}.item h3{font-size:1rem;margin:3px 0}.price{color:var(--gold);font-weight:900;font-size:1.3rem}.item p{font-size:.86rem;color:var(--muted);margin:6px 0}.pills{display:flex;gap:4px;flex-wrap:wrap}.pill{font-size:.72rem;background:#e8f0ed;color:var(--forest);padding:3px 6px;border-radius:999px}.pill.lim{background:#f4dfdb;color:#84382f}
 .even{display:grid;grid-template-columns:1fr 1fr;gap:15px}.even .panel{padding:20px}.even h3{margin:0 0 7px}.nums{display:flex;gap:8px;margin:13px 0}.nums div{flex:1;text-align:center;background:#eef4f2;border-radius:8px;padding:10px}.nums b{display:block;font-size:1.35rem}.cloud{display:flex;flex-wrap:wrap;gap:6px}.cloud span{border:1px solid var(--line);background:white;border-radius:999px;padding:4px 8px;font-size:.78rem}
 .rounds{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:12px 0}.round{background:#eef4f2;border-radius:8px;padding:10px;text-align:center}.boxes{display:flex;justify-content:center;gap:7px;margin-top:6px}.box{width:43px;height:43px;display:grid;place-items:center;background:var(--forest);color:white;border-radius:7px;font-weight:800}.boxlist{display:grid;grid-template-columns:repeat(3,1fr);gap:7px}.boxitem{border:1px solid var(--line);border-radius:7px;padding:8px;font-size:.83rem}.boxitem b{display:block;color:var(--gold)}
-.timeline{padding:20px;position:relative}.timeline:before{content:"";position:absolute;left:72px;top:30px;bottom:30px;width:2px;background:#c5d5d0}.trow{display:grid;grid-template-columns:65px 1fr;gap:18px;padding:7px 0}.trow time{font-weight:900}.trow div{background:#f5f8f6;border-radius:7px;padding:9px 12px;position:relative}.trow div:before{content:"";position:absolute;left:-24px;top:15px;width:9px;height:9px;border:3px solid var(--paper);background:var(--gold);border-radius:50%}.formula{display:flex;gap:7px;align-items:center;justify-content:center;flex-wrap:wrap;background:var(--forest);color:white;padding:19px;border-radius:9px}.formula span{background:#ffffff13;padding:7px 10px;border-radius:6px}.formula b{color:#f2cd73}
+.timeline{padding:20px;position:relative}.timeline:before{content:"";position:absolute;left:135px;top:30px;bottom:30px;width:2px;background:#c5d5d0}.trow{display:grid;grid-template-columns:120px 1fr;gap:18px;padding:7px 0}.trow time{font-weight:900}.trow div{background:#f5f8f6;border-radius:7px;padding:9px 12px;position:relative}.trow div:before{content:"";position:absolute;left:-24px;top:15px;width:9px;height:9px;border:3px solid var(--paper);background:var(--gold);border-radius:50%}.formula{display:flex;gap:7px;align-items:center;justify-content:center;flex-wrap:wrap;background:var(--forest);color:white;padding:19px;border-radius:9px}.formula span{background:#ffffff13;padding:7px 10px;border-radius:6px}.formula b{color:#f2cd73}
 .footer{background:#0e343d;color:#cfe0e2;padding:25px;text-align:center;font-size:.85rem}
 @media(max-width:970px){.stats{grid-template-columns:repeat(3,1fr)}.flow{grid-template-columns:repeat(4,1fr)}.flow div:after{display:none}.cards{grid-template-columns:repeat(2,1fr)}.shop{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:720px){html{scroll-padding-top:65px}.topin{padding:8px 13px}.brand{font-size:.86rem}.nav a{font-size:.78rem;padding:6px}.heroin{padding:34px 15px 28px}.stats{grid-template-columns:1fr 1fr}main{padding:22px 13px 45px}.head{display:block}.head .note{margin-top:6px}.bingo-wrap,.even,.cards,.foods{grid-template-columns:1fr}.shop{grid-template-columns:1fr 1fr}.rules{grid-template-columns:1fr 1fr}.flow{grid-template-columns:1fr 1fr}.cell{min-height:88px}.compare{grid-template-columns:1fr}}
 @media(max-width:440px){body{font-size:16px}.nine{gap:5px}.cell{padding:8px}.cell b{font-size:.76rem}.shop{grid-template-columns:1fr}.twocol{grid-template-columns:1fr}.boxlist{grid-template-columns:1fr}.rounds{grid-template-columns:1fr}.game summary{padding:14px}}
 
 .cards{align-items:start}
+.cards>.game[open]{grid-column:1/-1}.game[open] .body{max-width:1000px}
 .nav a:focus-visible,.tab:focus-visible,summary:focus-visible{outline:3px solid #b6872a;outline-offset:3px}
 .rule-detail{margin-top:16px;border:1px solid var(--line);border-radius:10px;background:var(--paper);overflow:hidden}
 .rule-detail>summary{display:flex;align-items:center;justify-content:space-between;gap:12px;list-style:none;cursor:pointer;padding:16px 20px;font-weight:800;color:var(--forest)}
@@ -37,301 +38,321 @@ main{max-width:1240px;margin:auto;padding:28px 20px 55px}section{margin-bottom:3
 .rule-detail-body h3{font-size:1rem;margin:18px 0 4px}
 .rule-detail-body p{margin:0;color:#344e57;overflow-wrap:anywhere}
 .meta{display:block}.game summary>span:nth-child(2){min-width:0}
+.owner{display:inline-flex;align-items:center;margin-top:7px;padding:3px 8px;border-radius:999px;background:#e3eee9;color:#245b49;font-size:.76rem;font-weight:800}
+.food h3{padding-right:28px}.food h4{margin:12px 0 4px;color:var(--forest)}.food ul{margin:6px 0 0;padding-left:1.2em}
+.cell.opening{background:#fcebe6;border-color:#d39a89}.dot.o{background:#c86f58}
 @media print{.top,.tabs{display:none}body{background:white;color:#153641}.hero{background:white;color:#153641}.lead,.eyebrow{color:#344e57}.heroin:after{display:none}.stats{display:none}main{max-width:none;padding:10mm}.cards,.shop,.even{display:block}.panel,.game,.rule-detail{box-shadow:none;margin-bottom:12px;break-inside:avoid}.game .body,.rule-detail .rule-detail-body{display:block!important}.footer{background:white;color:#344e57}.formula{background:#e9f1ee;color:#153641}}
+.target-demo{max-width:520px;margin:18px 0}.target-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:5px}.target-grid div{padding:14px;text-align:center;border:1px solid #bacfc8;background:#e8f0ed;border-radius:7px;font-weight:800}.target-grid .jackpot{background:#f5e7bd;border-color:#b6872a;font-size:1.25rem}.throw-line{text-align:center;margin-top:15px;border-top:3px dashed #b6872a;padding-top:10px}.single-wide{grid-template-columns:1fr!important}.single-wide .body{max-width:1000px}.target-demo figcaption{font-size:.9rem;color:var(--muted);margin-bottom:6px}@media(max-width:440px){.trow{grid-template-columns:92px 1fr;gap:15px}.timeline:before{left:107px}.trow time{font-size:.8rem}.trow div:before{left:-21px}}
 </style>
 </head>
 <body>
-<header class="top"><div class="topin"><div class="brand"><b>九宫格</b>银票赛</div><nav class="nav" aria-label="活动规则导航"><a href="#overview">总览</a><a href="#bingo">九宫格</a><a href="#games">六个游戏</a><a href="#food">美食</a><a href="#shop">商店</a><a href="#dinner">潜伏者</a><a href="#auction">拍卖</a><a href="#timeline">时间轴</a></nav></div></header>
-<section class="hero" id="overview"><div class="heroin"><p class="eyebrow">AMAZING RACE × BINGO × 银票经济</p><h1>鲁迅公园九宫格银票挑战赛</h1><p class="lead">全队共同探索九宫格：先赚银票，再用银票购买优势，晚餐继续潜伏与竞拍。所有环节结束后，最终资产最多的队伍夺冠。</p><div class="stats"><div class="stat"><b>6队</b><span>每队6—8人</span></div><div class="stat"><b>500两</b><span>初始资产</span></div><div class="stat"><b>9格</b><span>6游戏＋3打卡</span></div><div class="stat"><b>90分钟</b><span>公园阶段</span></div><div class="stat"><b>1个冠军</b><span>最终资产最多</span></div></div></div></section>
+<header class="top"><div class="topin"><div class="brand"><b>九宫格</b>银票赛</div><nav class="nav" aria-label="活动规则导航"><a href="#overview">总览</a><a href="#bingo">九宫格</a><a href="#photo">开场PK</a><a href="#games">负责人关卡</a><a href="#food">美食任务</a><a href="#self">隐藏点位</a><a href="#shop">商店</a><a href="#dinner">潜伏者</a><a href="#auction">拍卖</a><a href="#timeline">时间轴</a></nav></div></header>
+<section class="hero" id="overview"><div class="heroin"><p class="eyebrow">AMAZING RACE × BINGO × 银票经济</p><h1>鲁迅公园九宫格银票挑战赛</h1><p class="lead">六队先完成统一开场的“Focus Hunter”，才能解锁其余八格。九格全部需要完成，其中只有隐藏点位采用自助审核；两小时内全队共同闯关；晚餐平分团队银票，切换个人赛，再用银票参加拍卖与兑换。</p><div class="stats"><div class="stat"><b>6队</b><span>每队6—8人</span></div><div class="stat"><b>500两</b><span>初始资产</span></div><div class="stat"><b>9格</b><span>开场＋6关＋美食＋隐藏</span></div><div class="stat"><b>2小时</b><span>含步行与转场</span></div><div class="stat"><b>团队 → 个人</b><span>晚餐平分银票</span></div></div></div></section>
 <main>
-<section><div class="head"><div><p class="kicker">GAME FLOW</p><h2>一眼看懂整场活动</h2></div></div><div class="panel flow"><div><b>🎟️</b><span>领取500两</span></div><div><b>▦</b><span>九宫格挑战</span></div><div><b>🛒</b><span>道具商店</span></div><div><b>📊</b><span>公园排名</span></div><div><b>🕵️</b><span>晚餐潜伏者</span></div><div><b>📦</b><span>神秘箱拍卖</span></div><div><b>🏆</b><span>最终冠军</span></div></div><div class="panel rules"><article><strong>全队共同行动</strong><p>不能拆队，同时只挑战一个任务。</p></article><article><strong>步行或快走</strong><p>公园内不鼓励在人群中奔跑。</p></article><article><strong>银票既是分数也是货币</strong><p>道具与拍卖支出都会影响余额。</p></article><article><strong>公园结束只报排名</strong><p>不公开具体银票数，保留悬念。</p></article></div></section>
-<section id="bingo"><div class="head"><div><p class="kicker">BINGO</p><h2>每队一张不同排列的九宫格</h2></div><p class="note">任务相同，排列不同。点击队伍查看任务卡；盖章与排名由工作人员登记。</p></div><div class="bingo-wrap"><div class="panel bingo"><div class="tabs" id="tabs"></div><div class="nine" id="nine" aria-live="polite"></div><div class="legend"><span><i class="dot"></i>正式游戏</span><span><i class="dot f"></i>公开美食打卡</span><span><i class="dot h"></i>隐藏点位</span></div></div><aside class="panel rewards"><h3>首次 Bingo 排名奖励</h3><p class="note">完成任意横线、竖线或对角线3格。每队只计算一次。</p><div class="reward"><span>第1支完成</span><b>＋100两</b></div><div class="reward"><span>第2支完成</span><b>＋80两</b></div><div class="reward"><span>第3支完成</span><b>＋60两</b></div><div class="reward"><span>第4—6支</span><b>＋40两</b></div><div class="callout"><b>Full House：额外＋80两</b>完成全部9格。万能格不能用于 Full House。</div></aside></div>
-<details class="rule-detail"><summary>怎么盖章、申报与计算排名<span aria-hidden="true">＋</span></summary><div class="rule-detail-body"><h3>出发前</h3><p>队长确认原始队员人数与队伍编号，领取500两、固定排列的Bingo卡和隐藏点线索。九宫格排列在开局后不更换、不自行调位。网页用于查阅，不自动记分；纸卡、裁判记录和群消息作为比赛依据。</p>
-<h3>一个格子怎样算完成</h3><p>前5个现场挑战按规则参加完规定轮次、提交最终结果并经裁判登记，即可盖章；分数由表现另算，不要求满分，0分也可记录完成。仅到场、排队或中途放弃不算完成。隐藏点与美食点必须提交审核合格的照片。</p>
+<section><div class="head"><div><p class="kicker">GAME FLOW</p><h2>一眼看懂整场活动</h2></div></div><div class="panel flow"><div><b>📸</b><span>全员开场PK</span></div><div><b>🔓</b><span>解锁其余八格</span></div><div><b>🛒</b><span>道具商店</span></div><div><b>📊</b><span>公园排名</span></div><div><b>🕵️</b><span>平分银票·潜伏</span></div><div><b>📦</b><span>个人实物拍卖</span></div><div><b>🏆</b><span>礼物兑换·结束</span></div></div><div class="panel rules"><article><strong>先完成开场任务</strong><p>三组依次PK，其余四队观看；全场结束后统一出发。</p></article><article><strong>全队共同行动</strong><p>不能拆队，同时只挑战一个任务。</p></article><article><strong>步行或快走</strong><p>公园内不在人群中奔跑。</p></article><article><strong>银票既是分数也是货币</strong><p>道具与拍卖支出都会影响余额。</p></article></div></section>
+<section id="bingo"><div class="head"><div><p class="kicker">BINGO</p><h2>第一格统一，完成后解锁其余八格</h2></div><p class="note">六队均固定左上角为 Focus Hunter、右下角为 Blind Shape，其余七格排列不同。开场三场结束后统一出发；Blind Shape固定位置不代表必须最后挑战。</p></div><div class="bingo-wrap"><div class="panel bingo"><div class="tabs" id="tabs"></div><div class="nine" id="nine" aria-live="polite"></div><div class="legend"><span><i class="dot o"></i>统一开场任务</span><span><i class="dot"></i>负责人必做关卡</span><span><i class="dot f"></i>本队必做美食</span><span><i class="dot h"></i>唯一自助任务</span></div></div><aside class="panel rewards"><h3>首次 Bingo 排名奖励</h3><p class="note">同时满足：至少完成4个不同任务，且其中3格连成横线、竖线或对角线。每队只计算一次排名奖励。</p><div class="reward"><span>第1支完成</span><b>＋100两</b></div><div class="reward"><span>第2支完成</span><b>＋80两</b></div><div class="reward"><span>第3支完成</span><b>＋60两</b></div><div class="reward"><span>第4—6支</span><b>＋40两</b></div><div class="callout"><b>Full House：额外＋120两</b>全部9个不同任务核验完成后申报，每队额外领取一次；与首次Bingo奖励分别计算。</div></aside></div>
+<details class="rule-detail"><summary>怎么盖章、申报与计算排名<span aria-hidden="true">＋</span></summary><div class="rule-detail-body"><h3>固定两个角位</h3><p>所有队伍的Focus Hunter固定左上角，Blind Shape固定右下角；卡片发放后不能自行调换位置。位置只决定连线，不改变挑战次序：Focus Hunter统一先做，其余八项解锁后自由安排。</p><h3>出发前</h3><p>队长确认原始队员人数与队伍编号，先领取500两、固定排列的Bingo卡和队号牌。专属美食卡与隐藏点线索在三组PK全部结束后统一发放，避免队伍提前踩点。网页用于查阅，不自动记分；纸卡、裁判记录和群消息作为比赛依据。</p>
+<h3>第一个任务与解锁</h3><p>所有队伍先参加Focus Hunter。三组依次对战，未上场及已打完的四队观看。每组双方角色完成后先盖章；必须等三组全部结束，主持人统一发出“解锁”口令，六队才能开始其余八项任务。</p>
+<h3>一个格子怎样算完成</h3><p>六个负责人关卡须全队到场，按规则完成规定轮次并由负责人登记；美食任务须完成本队专属卡片；Focus Hunter须完成双方角色。隐藏点位是唯一自助任务，须在活动群提交合格照片。分数由表现另算，不要求满分。</p>
 <h3>全队到场与排队</h3><p>不能拆队同时做不同任务，也不能派人提前占位。站点忙时全队排队，或共同前往其他任务；离开队列需重新排队。每格只结算一次，额外重试仅按已购道具执行。</p>
-<h3>首次Bingo</h3><p>横向3行、纵向3列和2条对角线都有效。连成任一条完整线后，由队长在活动群提交“队伍号＋Bingo”及可核验卡片/记录。以首次合格申报的消息顺序排名，而非队伍口头声称的时间。一次连成多条仍只领一次奖励。</p>
-<h3>万能格</h3><p>使用时指定一个尚未完成的格，由总控标成“临时完成”。它只帮助第一次Bingo，不给该格奖励、不计实际完成数量、不计Full House。之后真实完成该格仍可正常拿分盖章。</p>
-<h3>Full House与截止</h3><p>9格都真实完成后另行申报，审核通过额外80两，每队一次。01:30停止新任务和新提交；截止前的合格申报可在之后审核，按原提交时间排序。消息时间显示相同时用群消息先后顺序，不凭审核先后改变排名。</p>
-<h3>一条线的例子</h3><p>1队第一行是乐高、美食A、24点。三格都盖章后首次申报；如果是第二支合格队伍，额外拿80两。后来完成另一条线不再拿Bingo奖，完成全部9格再加80两。</p></div></details>
+<h3>首次Bingo：4项完成＋3格连线</h3><p>必须同时满足两项：①至少4个不同任务已核验完成，Focus Hunter也计入；②已完成格中至少有一条横线、竖线或对角线。重复挑战同一任务不增加任务数。只完成3项即使连线也不能申报，继续完成任意第4项后才取得资格。</p><p>取得资格后，队长在活动群提交“队伍号＋首次Bingo＋已完成任务至少4项”及可核验九宫格／记录。按首次符合两项条件的有效申报消息顺序排名，不按三格提前连线时间、不按工作人员审核先后排名。提前申报无效，完成第4项后须重新提交；一次多条线仍只领取一次。</p>
+
+<h3>Full House与截止</h3><p>9格都真实完成后另行申报，审核通过额外120两，每队一次。02:00停止新任务和新提交；截止前的合格申报可在之后审核，按原提交时间排序。消息时间显示相同时用群消息先后顺序，不凭审核先后改变排名。</p>
+<h3>例子：三格连线还不够</h3><p>1队第一行是Focus Hunter、Brick Bank和美食。三项完成虽已连线，仍不能领首次Bingo奖励；再完成Hide and Seek，共4项后，才可提交有效申报。如果此时是第二支合格申报队伍，额外拿80两。Blind Shape固定右下角，但可在开场后自行安排挑战顺序。</p></div></details>
 </section>
-<section id="games"><div class="head"><div><p class="kicker">SIX CHALLENGES</p><h2>六个正式游戏</h2></div><p class="note">点击卡片展开完整规则；重要时间与奖励会直接显示。</p></div><div class="cards" id="gamecards"></div></section>
-<section id="food"><div class="head"><div><p class="kicker">PUBLIC CHECKPOINTS</p><h2>三个公开美食打卡点</h2></div><p class="note">开局即公开，不强制消费，具体店铺踩点后填入。</p></div><div class="foods"><article class="panel food" data-x="A"><h3>🍰 美食打卡 A</h3><p>甜品／面包类 · 地点待定</p></article><article class="panel food" data-x="B"><h3>🥟 美食打卡 B</h3><p>小吃／咸食类 · 地点待定</p></article><article class="panel food" data-x="C"><h3>☕ 美食打卡 C</h3><p>咖啡／饮品类 · 地点待定</p></article></div><div class="panel" style="padding:18px;margin-top:13px"><div class="compare"><div class="public"><b>📍 公开打卡</b><br>开局知道地点，比路线和到达时间。</div><div class="secret"><b>🔎 隐藏点位</b><br>不知道位置，只拿到局部照片和模糊提示。</div></div><p>合照须包含指定店铺或食品标识、队伍编号、除拍照者外的全部队员。完成后立即发送活动群，以合格照片的消息时间戳排名。</p><table class="rank"><tr><th>单个点位排名</th><th>奖励</th></tr><tr><td>第1名</td><td>＋60两</td></tr><tr><td>第2名</td><td>＋50两</td></tr><tr><td>第3名</td><td>＋40两</td></tr><tr><td>第4名</td><td>＋30两</td></tr><tr><td>第5—6名</td><td>＋20两</td></tr></table></div>
-<details class="rule-detail"><summary>公开打卡的拍照与审核步骤<span aria-hidden="true">＋</span></summary><div class="rule-detail-body"><h3>公开地点</h3><p>活动前统一公布A/B/C的店名、准确位置和必须拍到的标识，六队信息完全相同。当前店铺仍待踩点确定，现场不临时改成“找一家同类店”替代。</p>
-<h3>全员证明</h3><p>6人队至少5人入镜、7人队至少6人、8人队至少7人，另1人拍摄；使用定时拍摄全员入镜也可以。队伍编号和目标标识必须清楚，不能用旧照或拼接图证明。</p>
-<h3>发送格式</h3><p>到达后拍一张合格合照，立刻发活动群，配文“3队｜美食B｜7人队，6人入镜”。总控核验后登记本点排名和奖励，再在Bingo卡上确认该格完成。</p>
-<h3>补交与名次</h3><p>照片人数不足、缺队号或标识不清，需重拍补交，以第一次合格照片的消息时间为准。每个点独立排1—6名、每队仅得一次奖励，重复发送不能占多个名次。</p>
-<h3>不用购买食品</h3><p>不以消费金额、收据或购买速度作为条件。拍摄选择不堵店门和通道的位置；工作人员提前备好固定替代拍照标识，以免营业变化影响公平，替代方案须对所有队同时公布。</p>
-<h3>例子</h3><p>2队在A点第1名赚60两，在B点第4名赚30两，在C点第6名赚20两，三个点合计110两；这3次完成还分别占九宫格中的3格。</p></div></details>
+<section id="photo"><div class="head"><div><p class="kicker">OPENING TEAM VS TEAM</p><h2>第一任务：Focus Hunter</h2></div><p class="note">三组依次上场，每场两队对战、其余四队观看；三场全部结束后，六队同时解锁其余八格。</p></div><div class="cards single-wide" id="photocards"></div></section>
+<section id="games"><div class="head"><div><p class="kicker">STAFFED CHECKPOINTS</p><h2>六个负责人关卡</h2></div><p class="note">点击展开规则、计分、道具和示例。时间以新版文档为基础，转场与布置另留缓冲。</p></div><div class="cards" id="gamecards"></div><details class="rule-detail" open><summary>甩锅BINGO · 地面九宫格<span>＋</span></summary><div class="rule-detail-body"><p>每队3名队员各投1次。相同格可以重复得分；三个不同格连线，额外＋50两。</p><figure class="target-demo"><figcaption>远排 · 距投掷者最远</figcaption><div class="target-grid"><div class="">40两</div><div class="">20两</div><div class="">40两</div><div class="">30两</div><div class="jackpot">50两</div><div class="">30两</div><div class="">20两</div><div class="">10两</div><div class="">20两</div></div><div class="throw-line">近排外沿再退1.5米 · 建议投掷线</div></figure><p>例：中排30＋50＋30，连线再＋50＝160两。压格按锅身主体面积较多的一格判定；完全平分时取低分。绳子划内线，外边界须清楚，连接弯折段放场外。</p></div></details></section>
+<section id="self"><div class="head"><div><p class="kicker">SELF SERVICE</p><h2>唯一自助任务：Hide and Seek</h2></div><p class="note">不设驻点负责人，由全队根据线索寻找并在活动群提交照片，总控线上审核。</p></div><div class="cards" id="selfcards"></div></section>
+<section id="food"><div class="head"><div><p class="kicker">FOOD ASSIGNMENT</p><h2>Team，the eater · 六队美食任务</h2></div><p class="note">根据《Amazing Race 美食任务》六张正式任务卡生成；沿用现有六队分配。负责人：Seven；完成全部要求才通关。</p></div><div class="callout" style="margin-bottom:14px"><b>银票得分：全部完成＋100两；未完成0两</b>Seven核验本队任务卡全部要求后，才盖美食格。截止前可补材料，补齐前不计已完成任务数；不设部分完成奖励。</div><div class="foods" id="foodcards"></div><div class="panel" style="padding:18px;margin-top:13px"><div class="compare"><div class="public"><b>🍜 每队必须做自己的任务</b><br>门店、品类和数量以本队卡片为准。</div><div class="secret"><b>📷 合格证明</b><br>门店标识、食物、队号和除拍照者外的全队成员清晰入镜。</div></div><p>完成全部指定门店与品尝要求后，队内投票选出一款推荐小吃带回终点，并由记录员手写一句推荐理由。购买和品尝成本由活动预算另行安排，不从银票中扣除。</p><table class="rank"><tr><th>完成结果</th><th>奖励</th></tr><tr><td>全部门店、品类、合照和推荐理由齐全</td><td>＋100两</td></tr><tr><td>任一要求未完成或证明材料不全</td><td>＋0两，可补交</td></tr></table></div>
+<details class="rule-detail"><summary>美食任务的执行与审核步骤<span aria-hidden="true">＋</span></summary><div class="rule-detail-body"><h3>出发前确认</h3><p>每队只领取一张专属任务卡，先核对门店数量、指定品类和总款数。六张任务卡彼此不同，不能临时交换，也不能用其他队的门店替代。</p>
+<h3>到店与品尝</h3><p>全队共同到店，按任务卡选购并共同品尝。每家门店至少拍一张包含清晰招牌、指定食物、队伍编号和队员的照片；刨冰等不便携带的食物只需现场品尝和拍照。</p>
+<h3>带回推荐</h3><p>完成全部品尝后，全队投票选出一款最符合任务主题的小吃。记录员在任务卡上手写一句具体推荐理由；任务要求“带回终点”的小吃须妥善保存并在终点出示。</p>
+<h3>发送格式</h3><p>完成后将材料一次性发到活动群，配文“3队｜且介亭三店三艺｜3家门店已完成｜推荐：××”。Seven核对门店、数量、工艺或品类、合照和推荐理由，全部符合才盖章。</p>
+<h3>门店关闭或售罄</h3><p>联系Seven统一安排替代方案，队伍不能自行更换门店、食品或任务；全部要求完成才得100两，未完成得0两。</p><h3>补交与安全</h3><p>缺门店、缺食物照片、人数不足或推荐理由不清，可在02:00前补交；以第一次完整合格材料的时间为准。排队时不堵店门，不边走边吃，过敏或忌口人员可不试吃但须随队到场。</p>
+<h3>例子</h3><p>2队任务是“朝花夕拾弄堂百味图鉴”：在虹口糕团厂选2款、祥德市集选2款，共4款；全队品尝后选出1款带回，并写一句怀旧感推荐理由，材料齐全得100两并完成九宫格中的美食格。</p></div></details>
 </section>
-<section id="shop"><div class="head"><div><p class="kicker">TICKET SHOP</p><h2>限时道具商店</h2></div><p class="note">同一种道具每队最多购买1张；强力道具先到先得。</p></div><div class="hours"><span>第一次 <b>00:25—00:30</b></span><span>第二次 <b>00:55—01:00</b></span><span>每次 <b>5分钟</b></span></div><div class="shop" id="shopgrid"></div>
-<details class="rule-detail"><summary>购卡、交卡与结算细则<span aria-hidden="true">＋</span></summary><div class="rule-detail-body"><h3>先购卡，再使用</h3><p>商店仅00:25—00:30、00:55—01:00营业。队伍报编号、确认库存、支付银票后拿卡，总控登记。余额不足不能购买；购卡支出立即扣除。卡片只用一次，使用时交裁判注销，不转让、不兑换现金、不退未使用卡。</p>
-<h3>次数和库存</h3><p>同一种道具每队最多购买1张；双倍卡、万能格、X光卡全场各2张。库存以登记付款顺序为准。幸运盲盒只从7种普通卡中抽取：情报、时间、换题、闪回、重启、保险、加投，不含盲盒本身和强力卡；抽到本队已有或用过的种类时重抽，全部已拥有则不售盲盒。</p>
-<h3>时间卡</h3><p>每张只增加30秒。乐高加在还原阶段；24点加在整场；数字密码/禁词加在使用前指定的一题。须在对应计时开始前交卡。投壶按投数结算，不适用；不增加步行、商店、潜伏、拍卖或90分钟总时限。</p>
-<h3>换题与重启</h3><p>换题在题目提交、超时或违规前提出，更换为同类型备用题，原题作废，计时不重置。重启在某题失败后、该关结算前使用，只重做1题：数字密码30秒、禁词20秒、24点5分钟；重启期间只修正该题，不能顺便改其他题。所有时间仍受公园截止约束。</p>
-<h3>加投和回看</h3><p>加投卡将投壶10投变12投，最高基础奖励120两。乐高回看最多1次，可以普通回看扣20两或用闪回卡免扣；不会因为两者都选而获得两次回看。</p>
-<h3>保险、加成、双倍</h3><p>须在选定游戏开始前声明并交卡。保险把该关奖励低于30两时补到30两；加成增加25%、增加部分最多25两；双倍增加与原奖励相同的金额、增加部分最多80两。加成与双倍同一关二选一，不叠乘。奖励类卡适用6个正式游戏，不作用于Bingo、Full House、美食排名、潜伏者或拍卖。</p>
-<h3>统一结算顺序</h3><p>先算该关表现奖励（含全对奖、加投所得），再扣普通乐高回看费用且最低0两；之后应用保险，最后应用加成或双倍。加成产生小数时向下取整到整数两。商店购卡和隐藏提示的支出独立记账，不再次从已入账奖励扣除。</p>
-<h3>价格不等于收益</h3><p>双倍卡100两，但最多额外80两；加成卡80两，但最多额外25两。价格按既定方案保留，额外奖励不代表购卡净赚。例如游戏原奖70两，用双倍卡入账140两，扣除购卡100两后，该过程净增加40两。</p>
-<h3>情报卡与隐藏提示</h3><p>情报卡30两兑换一级提示，不能再收一次一级提示费。未买卡可直接向总控买普通一级提示30两；二级需在一级后另付30两。提示服务在公园阶段可联系总控，商店卡片仍只在营业窗口售卖；费用已经支付后，即使没找到也不退。</p>
-<h3>保险与提示示例</h3><p>队伍花30两提示费但没找到，任务表现奖励为0两。若此前还购入并预先使用保险卡，该关奖励提高为30两；购卡60两与提示30两都是支出，因此总净变化为30－60－30＝－60两。</p></div></details>
-</section>
-<section id="dinner"><div class="head"><div><p class="kicker">DINNER UNDERCOVER</p><h2>晚餐潜伏者</h2></div><p class="note">原6队拆散到5桌，所有奖励仍计入原始队伍。</p></div><div class="even"><article class="panel"><h3>🕵️ 潜伏阶段</h3><div class="nums"><div><b>12名</b><span>每队2名</span></div><div><b>20分钟</b><span>任务时间</span></div><div><b>5桌</b><span>混合分桌</span></div></div><ol class="steps"><li>每桌约2—3名潜伏者，所有人知道桌上存在潜伏者。</li><li>潜伏者可以聊天、引导、提问、制造话题。</li><li>不能公开身份，也不能直接要求别人配合任务。</li><li>20分钟结束后，全员停止任务并投票。</li></ol><h4>示例任务</h4><div class="cloud"><span>让3人一起举杯</span><span>让别人说出国家</span><span>讨论最难游戏</span><span>让别人提议合照</span><span>谈童年零食</span><span>引发集体大笑</span></div></article><article class="panel"><h3>🗳️ 投票与奖励</h3><ol class="steps"><li>每人1票，投给最怀疑的一名同桌成员，不能投自己。</li><li>投票后潜伏者公开身份和任务，由同桌确认事件是否发生。</li></ol><div class="callout"><b>潜伏成功：原队＋50两</b>任务确实完成，并且本人获得的怀疑票少于3票。</div><div class="callout"><b>普通玩家抓对：原队＋10两</b>投票对象确实是潜伏者。潜伏者自己的票不获抓人奖励。</div><p class="note" style="margin-top:12px">分桌参考：6人队按2、1、1、1、1；8人队按2、2、2、1、1。</p></article></div>
-<details class="rule-detail"><summary>从重新分桌到揭晓的完整流程<span aria-hidden="true">＋</span></summary><div class="rule-detail-body"><h3>分桌与秘密发卡</h3><p>6队每队选2名潜伏者，共12人、12张秘密任务卡。分到5桌可用3、3、2、2、2配置，尽量不让同原队的2名潜伏者坐同桌。每人佩戴原队编号，工作人员保存真实身份和任务记录，不在玩家页面公开实际分配。</p>
-<h3>20分钟内做什么</h3><p>主持人统一开始计时。潜伏者自然聊天、提问、制造话题，让事件发生；普通玩家照常用餐并观察。潜伏者可以记住发生时间和见证人，但不提前宣布成功，不私下要求别人帮自己过关。</p>
-<h3>怎样算完成</h3><p>以卡片上的明确人数、动作和措辞要求核验。例如“让另外至少3人一起举杯”不计潜伏者自己，举起任意饮品即可，无需饮酒。模糊任务应在印卡时改成可核验标准，例如“让同桌至少4人因同一个话题发笑”，不能揭晓时临时降低门槛。</p>
-<h3>投票流程</h3><p>20分钟到即结束任务；建议给2分钟写票，每人独立写自己的名字、原队编号和一名同桌被怀疑者。每人仅1票，不能投自己；多写人名、自投或无法辨认的票作废。潜伏者也必须投票，但不享受普通玩家抓人奖。所有票交齐后再揭晓身份。</p>
-<h3>核验与记账</h3><p>工作人员先统计每个人收到的票，再公开潜伏身份和任务。同桌确认事件确实发生，无法确认则任务不成功。任务完成且得票0、1、2票的潜伏者，为原队赚50两；得3票及以上，即使任务完成也不拿这50两。</p>
-<h3>普通玩家奖励</h3><p>普通玩家只要投中了真实潜伏者，原队加10两，不要求该潜伏者得到3票，也不要求其任务成功。同桌多个普通玩家都投中，各自分别加10两。每人最多一次抓人奖励。</p>
-<h3>结算例子</h3><p>1队潜伏者完成任务但收到3票，得0两；2队潜伏者完成任务且只得2票，为2队加50两。一名普通玩家投中了前者，仍可为自己的原队加10两。结算后只更新暂时排名，具体余额由工作人员私下告知各队财政官。</p></div></details>
-</section>
-<section id="auction"><div class="head"><div><p class="kicker">MYSTERY AUCTION</p><h2>神秘双箱拍卖会</h2></div><p class="note">潜伏者结算后开始，仍不公布具体余额。</p></div><div class="even"><article class="panel"><h3>📦 3轮 × 每轮2箱</h3><div class="rounds"><div class="round"><b>第1轮</b><div class="boxes"><span class="box">A</span><span class="box">B</span></div></div><div class="round"><b>第2轮</b><div class="boxes"><span class="box">A</span><span class="box">B</span></div></div><div class="round"><b>第3轮</b><div class="boxes"><span class="box">A</span><span class="box">B</span></div></div></div><ol class="steps"><li>每队指定1名财政官，同时提交A、B两份暗标。</li><li>统一公布报价，只有成功竞拍才扣银票。</li><li>每队每轮最多获得1箱；若同时最高，须选1箱，另1箱给第二高报价队。</li><li>同价时当前总银票较少的队伍优先，由工作人员后台判断。</li><li>6个箱子活动前确定内容并封箱，不能现场调整。</li></ol></article><article class="panel"><h3>🎁 六种建议箱内容</h3><div class="boxlist"><div class="boxitem"><b>财神箱</b>＋220两</div><div class="boxitem"><b>大红包</b>＋150两</div><div class="boxitem"><b>返现箱</b>成交价60%，最多120两</div><div class="boxitem"><b>小幸运</b>＋80两及小礼品</div><div class="boxitem"><b>礼物箱</b>实物礼物，＋0两</div><div class="boxitem"><b>风险箱</b>额外－50两</div></div><div class="callout"><b>🔎 X光卡</b>拍卖前指定某轮某箱，只查看“增益／实物／风险”类别，不看具体内容。</div><p class="note">实物奖品不折算银票，可用LEGO小礼物、零食礼包、咖啡券、小盲盒或纪念品。</p></article></div>
-<details class="rule-detail"><summary>暗标提交、分箱和支付示例<span aria-hidden="true">＋</span></summary><div class="rule-detail-body"><h3>活动前封箱</h3><p>6箱在活动前确定并随机分配到第1—3轮的A/B，贴封条，由工作人员保管对应内容表；不把哪一箱装什么公布给玩家。增益类包括财神、大红包、返现、小幸运；实物类是礼物箱；风险类是额外扣50两的风险箱。</p>
-<h3>财政官与余额</h3><p>每队1名财政官，工作人员私下提供该队当前余额。队员虽已分桌，仍可用手机商量。建议每轮给2分钟报价，主持人统一开始和截止，只有财政官的最后一份有效完整报价入账。</p>
-<h3>报价格式</h3><p>私发总控“1队｜第2轮｜A：160两｜B：90两”。金额为整数两，0表示不出价；每个单箱报价均不得超过本轮开始时的可用余额。因为每队最多买1箱，A＋B可以超过余额，但任意单箱都必须付得起。截止后不改价；漏报、超额报价对应箱视为未出价。</p>
-<h3>一轮如何分箱</h3><p>先分别找出A、B的最高有效报价者。若为不同队，各得1箱；若同一队双双最高，该队在揭箱前选1箱（建议30秒，未选择默认A），另一箱在剩余队伍中按原报价递补，不能临时加价。已获得一箱的队伍不能再参与本轮另一箱分配。</p>
-<h3>同价与流拍</h3><p>同价优先本轮报价开始时余额更少的队，由后台判断；若余额也相同，相关队由主持人现场抽签。某箱无人正价报价则流拍，不强迫最低价成交。先确定两箱归属并扣款，再同时开箱，不能看到内容后改选。</p>
-<h3>扣款与箱内奖励</h3><p>赢家支付自己提交的成交价，没拍到不扣钱。开箱后再入账箱内银票，实物不换算为银票；返现按成交价60%计算、最多120两，小数向下取整。风险箱在成交价之外再扣50两，可使账面变成负数，下一轮无可用余额则不能正价出价。</p>
-<h3>一轮例子</h3><p>1队报A160、B90；2队报A140、B100；3队报A120、B80。A由1队花160获得，B由2队花100获得。若A是财神箱，1队本轮净变化＋60两；若B是风险箱，2队净变化－150两。</p>
-<h3>双最高例子</h3><p>1队报A160、B120，其他队两箱报价都更低，1队必须先选1箱。若选A，B按其他队的原报价递补；1队只支付A的160两，不支付B的120两。</p>
-<h3>X光卡怎么用</h3><p>拍卖开始前交出X光卡并明确“第2轮A箱”等目标；工作人员仅私下告知持卡队其类别，卡片用后收回。一次只看一个箱子的类别，不看金额或具体礼物。</p></div></details>
-</section>
-<section id="timeline"><div class="head"><div><p class="kicker">SCHEDULE</p><h2>公园90分钟与晚餐流程</h2></div></div><div class="panel timeline"><div class="trow"><time>00:00</time><div><b>开始</b>：领取500两、Bingo卡、队伍编号和隐藏点线索。</div></div><div class="trow"><time>00:25</time><div><b>第一次商店开放</b>，00:30关闭。</div></div><div class="trow"><time>00:30</time><div>继续自由闯关。</div></div><div class="trow"><time>00:55</time><div><b>第二次商店开放</b>，01:00关闭。</div></div><div class="trow"><time>01:00</time><div>最后阶段自由闯关。</div></div><div class="trow"><time>01:20</time><div><b>剩余10分钟提醒</b>。</div></div><div class="trow"><time>01:30</time><div><b>公园结束、银票封盘</b>。统计后只公布暂时排名。</div></div><div class="trow"><time>晚餐</time><div>重新分5桌 → 潜伏20分钟 → 投票结算。</div></div><div class="trow"><time>最后</time><div>3轮拍卖 → 最终资产结算 → 公布冠军。</div></div></div><div class="formula"><span>公园余额</span><b>＋</b><span>潜伏奖励</span><b>＋</b><span>抓人奖励</span><b>－</b><span>拍卖支出</span><b>＋</b><span>箱内奖励</span><b>＝ 最终资产</b></div><div class="callout"><b>同分规则</b>九宫格完成数量更多者胜；仍相同时，更早完成Full House者胜；双方都没有Full House，则更早完成第一次Bingo者胜。</div>
-<details class="rule-detail"><summary>统一记账与最终同分处理<span aria-hidden="true">＋</span></summary><div class="rule-detail-body"><h3>公园账本</h3><p>每队从500两开始，加上六项游戏、三处美食、首次Bingo和Full House奖励，减去已登记的道具及提示消费。裁判登记队号、项目、奖励/支出、使用卡和时间；每笔只算一次，队长当场核对。</p>
-<h3>公园封盘</h3><p>01:30停止新行为，待截止前收到的材料审核完后计算公园余额。公开奖励排名，不公开具体余额。此处封盘只关闭公园阶段，晚餐的潜伏奖励、抓人奖励和拍卖仍会改变总资产。</p>
-<h3>总冠军</h3><p>最终资产＝公园余额＋潜伏者奖励＋普通玩家抓人奖励－拍卖支出＋箱内银票变动。风险箱的－50也计入“箱内银票变动”，实物奖品不参与金额比较。</p>
-<h3>同分顺序</h3><p>先看真实完成格数（不含万能格）；仍相同且都完成Full House时，比合格Full House申报时间；双方都未Full House则比第一次Bingo合格申报时间。一方有Bingo而另一方没有时，有Bingo者优先；仍完全相同或双方均无Bingo则并列，避免临时增加未公布的加赛。</p>
-<h3>截止与公平</h3><p>所有时限以工作人员计时为准，时间卡不跨越01:30总截止。规则有争议先当场请裁判核对，不能自行改分；确因道具或现场原因影响公平，总控对受影响队伍采用同样处理并记录。</p></div></details>
-</section>
-</main><footer class="footer">鲁迅公园九宫格银票挑战赛 · 详细规则版 · 2026.09.13</footer>
+<section id="shop"><div class="head"><div><p class="kicker">TICKET SHOP</p><h2>道具商店 · 新版价格与库存</h2></div><p class="note">按《游戏.docx》更新为9种卡；X光卡与公开实物拍卖不匹配，保留说明但本预览暂停出售。</p></div><div class="hours"><span>第一次 <b>00:50—00:55</b></span><span>第二次 <b>01:20—01:25</b></span><span>每次 <b>5分钟</b></span></div><div class="shop" id="shopgrid"></div><details class="rule-detail"><summary>使用细则与补充建议<span>＋</span></summary><div class="rule-detail-body"><h3>购买和交卡</h3><p>沿用每队每种最多1张、先付银票再领卡的规则；数量为全场总量。卡只能用一次，交负责人注销。不同类型可用于同一关，但不能突破活动总截止时间。</p><h3>加时和重启</h3><p><b>补充建议：</b>加时统一为30秒；须在指定计时结束前交卡。重启恢复原始时限，不再次叠加已用过的加时；重启成功替换该题／轮的0分。Code Talker可补全对奖励，BSO Code Breaker不补90秒速度奖。</p><h3>统一结算</h3><p>先计算游戏得分与全对奖励，再用双倍卡：额外奖＝原奖与100两中较小者。例如BSO Code Breaker得120两，双倍后220两；购卡70两已经记支出，不再重复扣。</p><h3>情报卡</h3><p><b>补充建议：</b>隐藏提示按最终任务奖励扣减，不重复收现金。无卡两级提示后入账40两；有情报卡两级提示后入账70两，卡费20两另记。</p><h3>带入个人阶段的卡</h3><p><b>补充建议：</b>潜伏护盾在平分银票时由原队明确交给1人，须在随机抽身份前登记，抽到普通身份不重抽、不转交、不退卡；不具有“免暴露”功能。完成但暴露得120两，完成且未暴露得200两。</p></div></details></section>
+<section id="dinner"><div class="head"><div><p class="kicker">TEAM → INDIVIDUAL</p><h2>Meccha Chameleon · 餐桌潜伏者</h2></div><p class="note">到达晚餐后团队赛结束，剩余银票平均分给队员；之后奖励、拍卖与兑换全部归个人。</p></div>
+<div class="even"><article class="panel"><h3>① 平分银票，再随机抽身份</h3><div class="nums"><div><b>5桌</b><span>末名队分散入席</span></div><div><b>2名／桌</b><span>随机潜伏者</span></div><div><b>10张</b><span>秘密任务卡</span></div></div><ol class="steps"><li>按公园封盘余额给团队排名；前五队各坐一桌，最后一队均分进入其他五桌。原分桌方式保留。</li><li>每队剩余银票除以本队人数，平均分给队员；个人领到后不再归原队统一使用。</li><li>每桌按实际人数准备外观相同的折叠上菜纸条，恰好2张潜伏者，其余普通玩家；潜伏者纸条内同时写1个秘密任务。</li><li>每人随机抽1张，只看自己的身份。来自哪支队伍不影响身份概率，不按原队平衡名额。</li></ol></article>
+<article class="panel"><h3>② 20分钟行动，随后投票揭晓</h3><ol class="steps"><li>主持人统一开始20分钟。潜伏者在正常吃饭聊天中，通过提问和引导完成任务，不亮卡、不要求别人配合。</li><li>时间到停止任务，建议留2分钟让每人独立投1票，选择最怀疑的同桌成员；不能自投或串票。</li><li>票全部交齐后公布身份与任务，再核验是否完成。潜伏者收到3票及以上即暴露。</li></ol><div class="callout"><b>潜伏者：完成＋60，未暴露再＋40</b>未完成0两；完成但暴露60两；完成且少于3票100两。</div><div class="callout"><b>普通玩家：投中潜伏者＋20两</b>投错0两；投中真实潜伏者就算成功，无需对方累计3票。潜伏者不领抓人奖。</div></article></div><details class="rule-detail"><summary>平分、核验与个人结算示例<span>＋</span></summary><div class="rule-detail-body"><h3>银票余数怎么处理</h3><p><b>补充建议：</b>工作人员用个人账本记到0.01两，先每人分相同金额，尾差留官方不参与竞拍。例如1000两÷6人，每人166.66两，尾差0.04两留官方；不通过抽签让某个人多拿一张。</p><h3>五桌座位</h3><p>末名队6／7／8人时，分别按2-1-1-1-1、2-2-1-1-1、2-2-2-1-1随机入桌。末名并列先看真实完成格数，仍同则抽签，仅决定座位。五桌都从所有在座者中抽2人，身份完全随机。</p><h3>完成核验</h3><p>任务要求的人数不含潜伏者自己，只算20分钟内行为。投票收齐后持卡人描述过程，由相关当事人确认，主持人最终核验；有争议且无法证实则不计完成。不能提前亮身份、交换卡或约定配合。</p><h3>结算例子</h3><p>小王个人起始180两，完成秘密任务但收到3票，得60两，余额240两；小李是普通玩家，投中小王得20两。奖励不再回原队。小王若只收到2票，则得100两。</p><h3>所需材料</h3><p>10份秘密任务，36—48份外观一致的上菜身份纸条（其中10份内含任务）、全员投票纸、笔、个人余额表和计时器。任务示例供工作人员制作，现场不要向玩家公开展开。</p></div></details><details class="rule-detail"><summary>10张可直接制作的秘密任务卡<span aria-hidden="true">＋</span></summary><div class="rule-detail-body"><p>工作人员将这10张卡打乱使用；实际发放时仅让持卡者看到任务。</p><ol class="steps">
+<li>让另外至少3人同时举杯；饮品不限，不要求喝下。</li><li>让另外2人分别说出一个童年最喜欢的零食名称。</li><li>让另外2人分别说出今天最难的一项游戏，并各给出一个理由。</li><li>让另外1人主动提出拍同桌合照，且另外2人明确同意。</li><li>让另外2人分别说出一个想去旅行的城市。</li><li>让另外2人同时做出点赞手势，保持至少2秒。</li><li>让另外2人分别说出一道桌上菜品的主要食材。</li><li>让另外1人讲一件自己的童年趣事，且另外2人参与回应。</li><li>让另外2人分别说出自己所属的星座。</li><li>让另外3人各推荐一款今天尝过的小吃，并各说一个推荐理由。</li>
+</ol></div></details></section>
+<section id="auction"><div class="head"><div><p class="kicker">PERSONAL AUCTION & REDEMPTION</p><h2>先拍卖，再兑换</h2></div><p class="note">只使用个人银票。可以竞拍、直接等兑换，或保留银票；不能与他人合并出价。</p></div>
+<div class="even"><article class="panel"><h3>实物公开拍卖</h3><ol class="steps"><li>主持人逐件展示LEGO小礼物、咖啡券、零食礼包、小盲盒或实用小物，并宣布该件起拍价。</li><li>个人公开喊价，每次加价至少10两；报价不能超过本人当前可用余额。</li><li>有效喊价后不能撤回。主持人确认最高报价，三次倒数无人再加价便落槌；同时喊同价以主持人先确认者为准。</li><li>最高报价者支付银票，领取实物；其他未拍到的人不扣款。无人出价则流拍。</li><li>每件成交立即更新个人余额，再开始下一件；全部拍卖结束后才开放兑换。</li></ol></article>
+<article class="panel"><h3>固定价格兑换</h3><table class="rank"><tr><th>建议礼品</th><th>所需银票</th></tr><tr><td>小零食</td><td>50两</td></tr><tr><td>饮品券／小礼物</td><td>100两</td></tr><tr><td>较高价值礼物</td><td>150两</td></tr></table><p>兑换品与拍卖品分开备货，数量有限，先兑先得；实际礼品和库存由主持人开场公示。</p><div class="callout"><b>支付后不退回银票</b>拍卖与兑换均不能超余额、借用或合并他人银票。不参加也可以保留银票；不设现金兑换。</div><p>例：个人有260两，以150两拍到礼物，剩110两；随后可花100两兑换，最终剩10两。</p></article></div>
+<div class="callout"><b>本版处理：X光卡暂不出售</b>文档同时保留“看神秘箱类别”的X光卡，但最终流程是公开展示实物。预览以最新实物拍卖流程为准；如后续决定加入神秘箱，再恢复该卡。</div></section>
+<section id="timeline"><div class="head"><div><p class="kicker">SCHEDULE</p><h2>公园两小时 → 晚餐个人赛 → 礼物到手</h2></div><p class="note">沿用两小时公园时限，以下为建议排程；餐桌与拍卖另计。新版包含入馆参观，需在活动前走一遍路线确认排队和步行时间。</p></div><div class="panel timeline"><div class="trow"><time>00:00—00:03</time><div>领取500两、九宫格和队号，抽签确定三场对阵。</div></div><div class="trow"><time>00:03—00:11</time><div>第1场Focus Hunter，双方各拍1轮，其他四队观看。</div></div><div class="trow"><time>00:11—00:19</time><div>第2场Focus Hunter，其他四队观看。</div></div><div class="trow"><time>00:19—00:27</time><div>第3场Focus Hunter，其他四队观看。</div></div><div class="trow"><time>00:27—00:30</time><div>统一结算开场，发美食卡和隐藏线索，六队同时出发。</div></div><div class="trow"><time>00:30—01:50</time><div>自由规划其余八格；包含六个负责人关卡、入馆参观、美食、隐藏、步行与排队。</div></div><div class="trow"><time>00:50—00:55</time><div>第一次道具商店营业。</div></div><div class="trow"><time>01:20—01:25</time><div>第二次道具商店营业。</div></div><div class="trow"><time>01:50</time><div>提醒剩余10分钟，核对未提交材料并返回终点。</div></div><div class="trow"><time>02:00</time><div>停止新挑战和新提交；审核截止前材料，结算团队排名。</div></div><div class="trow"><time>晚餐入席</time><div>前五队各一桌、末名队拆分；剩余银票平均分至个人。</div></div><div class="trow"><time>潜伏约30分钟</time><div>抽身份与说明 → 20分钟行动 → 2分钟投票 → 揭晓和个人奖励。</div></div><div class="trow"><time>收尾约20—30分钟</time><div>逐件公开拍卖 → 全部结束后开放兑换 → 活动结束。</div></div></div>
+<div class="formula"><span>个人分得银票</span><b>＋</b><span>餐桌奖励</span><b>－</b><span>拍卖与兑换支出</span><b>＝ 个人余额</b></div><details class="rule-detail"><summary>记账、排名与待落实事项<span>＋</span></summary><div class="rule-detail-body"><h3>公园团队赛</h3><p>余额＝500两＋任务奖励＋首次Bingo＋Full House－购卡费用。隐藏点按扣除提示后的净奖励入账，不再扣第二遍。每队每格只结算一次；参加完规定轮次可盖负责人关卡章，美食须全部完成，隐藏须找到正确点位。</p><h3>公园同分</h3><p>依次比较真实完成格数、Full House合格申报时间、首次Bingo合格申报时间；仍同则并列。团队排名在公园封盘确定，晚餐消费不改变公园排名。</p><h3>执行前核对</h3><p>落实入馆开放与接待安排，检查六条美食路线的实际耗时，负责人准备难度相当的题组。若走线后90分钟无法容纳其余八格，应提前调整整体时长并统一公布，不在比赛中临时压缩游戏。</p><h3>本版补充建议</h3><p>文档未明确的加时秒数、重启与速度奖关系、压线平分、场地尺寸、个人银票尾差和护盾持有人规则，已在相关位置补充。500两、首次Bingo各名次奖金、五桌分桌及商店营业时间沿用上一版；首次Bingo现需至少4项完成且3格连线，Full House改为额外120两。</p></div></details></section>
+</main><footer class="footer">鲁迅公园九宫格银票挑战赛 · 依据最新版《游戏.docx》修订 · 正式规则 · 2026.09.18</footer>
 <script>
-const tasks=[["乐高记忆银行","🧱",""],["真人数字密码","🔢",""],["24点挑战","✍️",""],["公园投壶","🎯",""],["禁词情报员","💬",""],["隐藏点位","🔎","hidden"],["美食打卡 A","🍰","food"],["美食打卡 B","🥟","food"],["美食打卡 C","☕","food"]];
-const layouts=[[0,6,2,7,5,3,1,8,4],[7,1,4,3,8,0,5,2,6],[2,5,7,8,3,1,6,4,0],[4,8,1,5,0,6,2,7,3],[6,3,5,1,7,4,8,0,2],[5,2,8,0,4,7,3,6,1]];
+const foodAssignments=[
+  {team:1,title:"夏日虹口·冷热寻味集",short:"美食｜冷热寻味",shops:"米饭饼摊＋好钰刨冰＋祥德市集",items:"米饭饼、刨冰、咸香小食各1款",mission:"现场品尝3款；投票选出最能代表虹口夏天的1款带回。刨冰只拍照，不带回。"},
+  {team:2,title:"《朝花夕拾》弄堂百味图鉴",short:"美食｜弄堂百味",shops:"虹口糕团厂＋祥德市集",items:"每家2款，共4款",mission:"投票选出最有“朝花夕拾”怀旧感的1款带回，并写一句推荐理由。"},
+  {team:3,title:"南北风味对照集",short:"美食｜南北风味",shops:"光头生煎＋万寿斋＋虹口糕团厂",items:"面食1款、小笼1款、糯米点心2款",mission:"区分北方面食与江南米食，选出最能代表虹口本地特色的1款带回。"},
+  {team:4,title:"且介亭三店三艺",short:"美食｜三店三艺",shops:"万寿斋＋虹口糕团厂＋祥德市集",items:"3款，制作工艺须分别为蒸、米制、油炸",mission:"每家选1款，辨认三种工艺，选出最能代表虹口传统手艺的1款带回。"},
+  {team:5,title:"海婴的点心宝库",short:"美食｜点心宝库",shops:"光头生煎＋大富贵",items:"生煎1款＋糕点2款，共3款",mission:"投票选出最适合送给童年海婴的1款带回，并写一句推荐理由。"},
+  {team:6,title:"孔乙己·文人佐茶小食集",short:"美食｜文人佐茶",shops:"大富贵＋祥德市集",items:"糕点2款＋咸香小食2款，共4款",mission:"向摊主询问是否适合佐茶并记录；选出最适合文人闲谈佐茶的1款带回。"}
+];
+const tasks=[["Brick Bank","🧱",""],["Code Talker","💬",""],["Team，the eater","🍜","food"],["Hide and Seek","🔎","hidden"],["迅哥！！！","📚",""],["Blind Shape","🪢",""],["甩锅BINGO","🥘",""],["BSO Code Breaker","🔢",""],["Focus Hunter","📸","opening"]];
+const layouts=[[8,0,2,7,4,3,1,6,5],[8,1,4,6,2,0,3,7,5],[8,7,3,1,6,0,2,4,5],[8,4,2,3,0,6,1,7,5],[8,2,1,7,3,4,6,0,5],[8,6,7,0,4,2,1,3,5]];
 const tabs=document.querySelector("#tabs"),nine=document.querySelector("#nine");
-function bingo(n){document.querySelectorAll(".tab").forEach((b,i)=>b.setAttribute("aria-pressed",String(i===n)));nine.innerHTML=layouts[n].map(i=>{const t=tasks[i];return `<div class="cell ${t[2]}"><i>${t[1]}</i><b>${t[0]}</b></div>`}).join("")}
+function bingo(n){document.querySelectorAll(".tab").forEach((b,i)=>b.setAttribute("aria-pressed",String(i===n)));nine.innerHTML=layouts[n].map(i=>{const t=tasks[i],label=i===2?foodAssignments[n].short:t[0];return `<div class="cell ${t[2]}"><i>${t[1]}</i><b>${label}</b></div>`}).join("")}
 layouts.forEach((_,i)=>{const b=document.createElement("button");b.type="button";b.className="tab";b.textContent=(i+1)+"队";b.onclick=()=>bingo(i);tabs.appendChild(b)});bingo(0);
-const games=[
+document.querySelector("#foodcards").innerHTML=foodAssignments.map(f=>`<article class="panel food" data-x="${f.team}"><h3>${f.team}队｜${f.title}</h3><span class="owner">随机分配结果</span><h4>打卡门店</h4><p>${f.shops}</p><h4>品尝要求</h4><p>${f.items}</p><h4>任务指令</h4><p>${f.mission}</p></article>`).join("");
+const staffedGames=[
   {
     "icon": "🧱",
-    "name": "乐高记忆银行",
-    "time": "观察40秒＋还原2分钟",
+    "name": "Brick Bank",
+    "owner": "Maggie",
+    "time": "还原累计3分钟＋每组观察30秒；约6分钟",
     "max": "100两",
-    "goal": "全队记住6块不同颜色积木的搭法，再用另一套积木还原。",
-    "tools": "18块DUPLO，共6种颜色、每种3块：展示6块、还原6块、备用6块。另备遮挡布、朝向标记、计时器及裁判多角度答案照片。",
+    "goal": "用6块不同颜色的DUPLO，连续还原3组逐渐变难的模型。",
+    "tools": "6色DUPLO两套（每套6块）、3组模型搭建图、遮挡物、计时器。展示组按图重搭，队伍始终使用同一套6块。",
     "steps": [
-      "准备：裁判用6块不同颜色积木搭成立体模型，在桌面标出“正面”，固定A、B、C三个观察方向。模型应能凭这3个方向确定搭法，不能暗藏无法观察的连接。",
-      "全员到场后先选2名搭建者，其他人负责观察、记忆、指挥。裁判说明计分标准后才开始。",
-      "观察40秒：大家可从指定的最多3个方向看，可口头交流、分工记颜色和层数，但不能拿起、转动模型、拍照或写笔记。",
-      "裁判遮住模型并发放另一套相同的6块积木，开始2分钟还原。只有选定的2人可以动手，其他人只用语言指导。",
-      "每队最多回看1次、10秒；还原计时不停。普通回看扣20两；持记忆闪回卡则交卡回看、不再扣20两。两种回看不能叠加。",
-      "到时立即停手。裁判按桌面正面标记逐块检查颜色、相对位置和朝向；对称积木无法区分的等价方向视为正确。"
+      "全队挑战3组模型，每组恰好6块，6块颜色各不相同；全队均可讨论和动手。",
+      "第1组展示30秒，最多看指定的3个面。观察时不能拍照、记录、触碰、旋转或拆开模型；此时3分钟还原计时不走。",
+      "遮住模型后启动3分钟总计时。队伍用相同的6块还原，颜色、位置、方向全部正确才算完成。",
+      "搭好喊“提交”；Maggie核验时暂停计时，错误只告知未通过，继续剩余时间调整。正确则记30两，进入下一组。",
+      "下一组再次观察30秒，观察期间总计时暂停；观察完遮住，继续剩余还原时间。3组共享3分钟，不是每组3分钟。",
+      "时间用完或3组全部完成即结束；没有完整还原的模型不计部分分。",
+      "提交后所有人停手，由Maggie把模型放到统一正面比较；整体平移不算错，但积木相对位置与朝向必须一致。核验结束后才可继续动手，不能趁停表修改。"
     ],
-    "ban": "不能拆看或转动展示模型；不能拍照、录音、写字记录；未指定的队员不能替代搭建。",
-    "score": "每块完全正确得15两，6块全对额外10两，基础奖励最高100两。普通回看从该关奖励扣20两，最低0两。商店购卡费用另记，不从奖励重复扣除。",
-    "usable": "记忆闪回卡；时间卡仅给还原阶段加30秒；保险卡、加成卡、双倍卡。",
-    "example": "5块正确＝75两。普通回看后入账55两；如果之前花50两买了记忆闪回卡，该关仍入账75两，但购卡支出另计，全程净增加25两。"
-  },
-  {
-    "icon": "🔢",
-    "name": "真人数字密码",
-    "time": "5题，每题30秒",
-    "max": "100两",
-    "goal": "先解题，再让队员举起数字卡，按从左到右的顺序站出答案。",
-    "tools": "0—9数字卡各2张，共20张，建议A5/A4。A—F六套正式题，每套5题；另备同类替换题、答案及计时器。",
-    "steps": [
-      "6队分别使用A—F套题，每套依次包含快速计算、数字建造、时间密码、条件/逻辑推理、规律/方程。题目应有明确答案且难度接近。",
-      "裁判先将20张卡放在取卡区。每题完整展示并朗读完毕后，开始30秒计时，全队可一起讨论。",
-      "算出答案后选出对应卡片，一人持一张，按裁判视角从左至右站好。时间答案不用冒号，例如15:25排成1525。每个数字最多能出现两次。",
-      "可在限时内调整站位或卡片；全队喊“提交”后立即锁定，只接受1次正式答案。算对但举牌顺序错误也算该题错误。",
-      "答对、答错或超时后收回卡片，再进行下一题。完成5题后统一结算；6—8人队都可以轮换举牌者。",
-      "使用换题卡须在提交或超时前提出，换成同类型备用题，沿用该题剩余时间。时间卡给指定的一题额外30秒。"
-    ],
-    "ban": "不能使用手机、计算器或向其他队索要答案；不能临时写一张额外数字卡；提交后不能改答案。",
-    "score": "每题正确20两，5题最高100两；错误或超时0两。重启卡重做1道失败题，按该题原时限30秒重新计时，同一题最多计分一次。",
-    "usable": "时间卡、换题卡、重启卡、保险卡、加成卡、双倍卡。",
-    "example": "“14:35的50分钟后是几点？”取1、5、2、5四张卡，由4人排出1525，喊提交得20两。排成1552则不得分。"
-  },
-  {
-    "icon": "✍️",
-    "name": "24点挑战",
-    "time": "5分钟，共8题",
-    "max": "100两",
-    "goal": "在5分钟内解出尽可能多的24点题，写出可核对的完整算式。",
-    "tools": "每队8题题纸、答题纸、草稿纸、笔及夹板；裁判答案表、替换题及计时器。题目提前验证有解。",
-    "steps": [
-      "全队到场后，裁判一次性发齐8题，确认大家看清后开始5分钟计时。可自由分工，也可一起解某一题。",
-      "每题的4个数字必须全部使用、每个使用一次。若题目出现相同数字，按给出的数量分别使用。",
-      "只允许加、减、乘、除和括号，结果必须等于24。计算过程中可以出现分数或负数，但不能除以0。",
-      "在答题纸对应题号下写完整算式；草稿或口头答案不计分。提交前可修改，同一题写出多个解法也只计1题。",
-      "5分钟到时停笔。裁判接受任何合法正确解法，不限于答案表上的示例。答错不扣其他题分数。",
-      "换题卡在交卷前使用，只替换1题，原题作废，整场计时不停。时间卡给整场加30秒；重启卡在核对后重做1道失败题，重新给5分钟，只能修改该题。"
-    ],
-    "ban": "不准拼接数字，不使用阶乘、平方、开方等额外运算，不准用手机或计算器。",
-    "score": "每题正确10两，8题全对再加20两，最高100两。重启后若达到8题全对，可获得全对奖励，但不重复领取已答对题的奖励。",
-    "usable": "时间卡、换题卡、重启卡、保险卡、加成卡、双倍卡。",
-    "example": "题目1、2、3、4可写“(1＋2＋3)×4＝24”。对7题得70两；8题全对得80＋20＝100两。"
-  },
-  {
-    "icon": "🎯",
-    "name": "公园投壶",
-    "time": "建议约5分钟，按投数结算",
-    "max": "基础100两",
-    "goal": "每个人至少投一次，全队在近投与远投之间选择，争取更多点数。",
-    "tools": "软质短箭或小沙包、折叠筐/投壶容器、1.5米和2.5米投掷线、计分表。所有队使用同一器材与距离。",
-    "steps": [
-      "裁判固定容器并标出近线约1.5米、远线约2.5米。投掷方向避开游客和步道，其他队员站在投掷者身后。",
-      "正式前全队共2次免费试投，由谁试投自行决定，试投不计分。",
-      "正式共10投，所有队员必须至少投1次。6人队先各投1次后剩4次，7人队剩3次，8人队剩2次，自由安排。",
-      "每次出手前选择近线或远线。近线命中1点，远线命中2点。出手时踩线或越线该投记0点，不补投。",
-      "投掷物最终留在容器内才算命中，弹出不得分。裁判当场报点，统一捡回道具后继续，不边投边捡。",
-      "用加投卡须在正式投掷前交卡，总投数变成12次，新增2投可自由分配。已完成的投掷不能撤销重投。"
-    ],
-    "ban": "不能移动容器或投掷线；不能托举队友接近目标；不能强行补投。",
-    "score": "每点5两，普通10投最高20点＝100两。加投卡增加2投后可达24点＝120两，增加的机会不被基础100两上限截掉；卡费60两另记。",
-    "usable": "加投卡、保险卡、加成卡、双倍卡。本项按次数而非限时判分，因此不使用时间卡；没有答题环节，不使用换题卡或重启卡。",
-    "example": "7次远线命中、1次近线命中，另2次未中：14＋1＝15点，获得75两。即使挑战少于5分钟完成，也不增加投数。"
+    "score": "每完整还原1组＋30两；3组全部完成再＋10两。0／1／2／3组分别为0／30／60／100两。",
+    "usable": "加时卡、记忆闪回、双倍卡。",
+    "example": "前两组共用2分钟，第3组用完剩余1分钟仍有一块方向不对，最终60两。",
+    "ban": "禁止拍照、笔记、触碰展示模型；未持记忆闪回卡不能额外回看。"
   },
   {
     "icon": "💬",
-    "name": "禁词情报员",
-    "time": "8题，每题20秒",
+    "name": "Code Talker",
+    "owner": "Ellen",
+    "time": "8题，每题20秒；约4分钟",
     "max": "100两",
-    "goal": "用场景、举例或动作让队友猜中目标词，避开3类禁止表达。",
-    "tools": "8张正式题卡，每张只有1个目标词与3个禁词；另备替换题、计时器。裁判持卡核对。",
+    "goal": "避开目标词中的字、谐音与3个禁词，让队友猜中。",
+    "tools": "8张正式题卡、备用题卡、计时器；每卡含1个目标词＋3个禁词。",
     "steps": [
-      "先确定轮流描述顺序，所有队员至少做1次情报员。6人队选2人多做一次，7人队选1人多做一次，8人队各做一次。",
-      "每题只给情报员看卡，准备好后计时20秒。其他队员猜答案，裁判不提示。",
-      "可以描述场景、举例、做动作、换角度解释。表达只限制3件事：不能说目标词中的任意一个字，不能说这些字的明显谐音，不能说题卡上的3个禁词。",
-      "队友可以多次猜，猜答案时不受禁词限制。情报员的表述一旦触禁词，该题立即结束，即使队友随后猜对也不得分。",
-      "猜对则提前结束该题；超时或主动放弃则失败。总共8题，跳过不免费补题。",
-      "换题卡须在触禁词、超时或猜中之前使用，更换1题但继续原题剩余时间；重启卡重做1道失败题，重新给20秒。"
+      "全队排好描述顺序，每题换一名描述者；每人先轮一次，人数不足8人再循环。",
+      "Ellen只把卡给当轮描述者看，读卡后开始20秒计时，其余队员可不断猜。",
+      "描述者准备读卡最多5秒，准备期间不能提示或做动作；Ellen喊“开始”后才可描述。猜出的词须与目标词相同，近义词不直接算对，裁判可提示“请说准确词”。",
+      "描述者不能说目标词中的任何一个字、这些字的谐音，以及卡上3个禁词；其他内容可以自由描述、举例或做动作。",
+      "一旦说出违规词，本题立即失败；猜词队友不受禁词限制。猜对立即进入下一题，超时或跳过记0分。",
+      "8题结束后结算；有重启卡，可在结算前重做1道失败题，重启成功可补足全对奖。"
     ],
-    "ban": "情报员只受上述3条表达限制；队友猜词不算情报员违规。秘密题卡由裁判保管，不发给猜词队员。",
-    "score": "每猜对1题10两，8题全对额外20两，最高100两。重启题答对只补该题分数，不重复计分；补齐8题可得全对奖励。",
-    "usable": "时间卡给指定一题加30秒；换题卡、重启卡、保险卡、加成卡、双倍卡。",
-    "example": "目标“火锅”，禁词“辣、涮、聚餐”。可以做夹菜动作，说“几个人围坐着吃的热食”。情报员说“锅”则失败；队友猜“火锅”正确则成功。"
+    "score": "每题＋10两；8题全对额外＋20两，最高100两。",
+    "usable": "加时卡、重启卡、双倍卡。",
+    "example": "目标“火锅”，禁词“辣、涮、聚餐”。可说“大家把食材放进热汤里煮”；描述者说出“锅”则本题失败。",
+    "ban": "不能展示题卡；不能说目标词中的字、其谐音或3个禁词。"
   },
   {
-    "icon": "🔎",
-    "name": "隐藏点位",
-    "time": "90分钟公园阶段内完成",
-    "max": "基础100两",
-    "goal": "根据局部照片与模糊提示，找出本队对应的隐藏目标并提交证明。",
-    "tools": "提前踩点拍摄A/B/C三处局部照片，每处准备初始提示、一级区域提示、二级附近地标提示及裁判完整参考图。队伍编号牌、手机。",
+    "icon": "🪢",
+    "name": "Blind Shape",
+    "owner": "Ella",
+    "time": "4轮，每轮60秒；含换场约6分钟",
+    "max": "100两",
+    "goal": "全队蒙眼，握住同一根绳子合作摆出目标图形。",
+    "tools": "长软绳1根（建议8—10米，首尾连接）、每人1个眼罩、4张图形卡、计时器。",
     "steps": [
-      "1、4队寻找A点，2、5队寻找B点，3、6队寻找C点。开局只发本队的局部照片和模糊提示，不给准确坐标；每个点最多两队寻找。",
-      "全队一起在允许活动范围内辨认照片细节。可一边正常转场一边找，不能把部分队员留在其他站继续挑战。",
-      "找到后拍摄能核对目标细节的照片，并带上队伍编号；全队须到达现场，照片建议让除拍照者外的全部成员入镜，便于核验。",
-      "将照片与“队伍号＋隐藏点A/B/C”发给指定工作人员。地点错误或照片看不清须补交，只有合格照片才算完成。",
-      "普通一级提示30两，第二级再30两；可在寻找时联系总控逐级获取。情报卡在商店购买后可兑换一级提示，与普通一级提示不重复扣费。",
-      "01:30前必须提交合格证明。工作人员可在截止后审核截止前收到的照片；截止后重新拍摄或补交不计入本轮。"
+      "Ella清理平坦空地，全队戴好眼罩，每人至少一只手握住同一根绳子；裁判在旁提示边界。",
+      "每轮开始前口头公布目标图形，建议依次为三角形、正方形、菱形、五边形，六队使用相同顺序。",
+      "开始60秒计时。队员可说话、慢慢移动、调整绳段；每人至少一只手始终握绳，可以沿绳滑动，但不能完全松手另找位置。",
+      "60秒到立即停止；Ella检查轮廓是否清楚、边角数量是否对应，再允许大家摘眼罩看结果。",
+      "正方形须四边大致等长、四角接近直角；菱形须四边大致等长且明显呈斜角，避免两个图形判法相同。其余图形以边数和清晰闭合轮廓判定。",
+      "重新站稳、戴好眼罩后进入下一轮。四轮结束按成功数量结算。",
+      "计时结束后保持造型不动直到Ella完成判定；提前摆好也要维持至截止。普通失误不重来，身体不适或绊倒等情况立即停赛并由Ella协助摘眼罩，必要时按同等条件重开该轮。"
     ],
-    "ban": "不能向另一队索要位置；不能进入封闭或限制区域，不攀爬、不移动现场设施。隐藏点位与三个公开美食点独立计分。",
-    "score": "找到后基础奖励入账100两。已购一级提示净增加70两，两级净增加40两，提示费用不再从奖励重复扣除。未找到：任务奖励0两，已经支付的提示/情报卡费用不退。",
-    "usable": "情报卡、保险卡、加成卡、双倍卡。奖励类卡须在开始寻找前声明；时间卡不延长公园总时限，题目/投掷类道具不适用。",
-    "example": "原余额500两，先买一级提示扣30变470；找到后加100变570，全程净赚70两。若没找到，任务奖励为0，余额仍为470。"
+    "score": "每成功1轮＋25两，最多100两。",
+    "usable": "加时卡、重启卡、双倍卡。",
+    "example": "三角形、菱形、五边形通过，正方形不清晰，得75两。",
+    "ban": "不能偷看、奔跑、完全松开绳子或让场外队友指挥；绳子不绕身体和颈部。"
+  },
+  {
+    "icon": "🥘",
+    "name": "甩锅BINGO",
+    "owner": "Ricky",
+    "time": "每队3投；约3—4分钟",
+    "max": "160两；加投后最高210两",
+    "goal": "将砂锅玩偶投进九宫格，累计银票；3个不同格连线再拿50两。",
+    "tools": "两根足够长的绳子、砂锅软玩偶1个、计分表；格子分值参考下方示意。",
+    "steps": [
+      "用两根长绳各折成一条折线，分别划出两条横内线、两条竖内线，连接弯折段放在九宫格外；外边界另用现成地砖边界明确。场地无清晰外边界时，建议加1圈纸胶带。",
+      "从远到近三排分值为40／20／40，30／50／30，20／10／20两。建议每格60厘米，投掷线距近边1.5米；开场前试投确认后，六队统一距离。",
+      "每队正式投3次，由3名不同队员完成。在线后低手投出砂锅玩偶，待完全静止再判分。",
+      "落在哪格，就获得哪格银票并记录占领；重复落同一格仍加分，但只算占领1格。",
+      "玩偶压两格时，以锅身主体面积更多的一格为准，不计算锅柄；完全平分时取较低分。主体大部分在界外则0分，边界各半也记0。",
+      "Ricky报分、记录格子，再捡回玩偶开始下一投。三个不同占领格形成横线、竖线或对角线，即额外＋50两，每队最多触发一次。",
+      "“再甩一锅”在结算前交卡，追加1投，可以继续得分、占格、完成连线；新增一投可由已投过的队员执行。",
+      "玩偶先落一格后滑到另一格，按最终静止位置计算；若同时压到三格或四格，也取主体覆盖面积最大的一格，最大面积并列取其中低分。裁判报分后队长当场核对，再捡回继续。甩锅内部的连线奖仅是本关奖励，不等于任务卡的首次Bingo排名奖。"
+    ],
+    "score": "三投格分相加，连线额外＋50两。标准最高160两；四投最多210两。重复格可得分但不能重复占格。",
+    "usable": "再甩一锅；不适用双倍卡。",
+    "example": "投中中排30、50、30，连成横线：30＋50＋30＋50＝160两。三投都中50只占一格，得150两，没有BINGO奖。",
+    "ban": "不能越线、助跑、移动绳子；裁判捡玩偶时不能投掷。越线一投0分且不补投。"
+  },
+  {
+    "icon": "🔢",
+    "name": "BSO Code Breaker",
+    "owner": "Phillis",
+    "time": "5题，每题30秒；约4分钟",
+    "max": "120两",
+    "goal": "解出公司／BSO数字问题，再由队员举卡排出答案。",
+    "tools": "0—9数字卡（按题库补足重复数字）、5道公司／BSO题与答案表、逐题计时器及总计时器。",
+    "steps": [
+      "Phillis准备经内部资料核实的5道公司／BSO题，答案为数字或数字组合；六队题组难度相同，答案公布后不得向其他队泄题。",
+      "每题完整公布后启动30秒计时，全队先讨论答案，再取出对应数字牌，由队员一人举一张，从裁判视角左到右排好。",
+      "排好喊“提交”即锁定，不能再改；答案数字正确但顺序错误也算错。答错或超时0分，随即下一题。",
+      "从第1题公布至第5题提交记录总用时；为公平，负责人读后续题和核验的时间暂停总表，归还与寻找数字牌的时间计入。",
+      "5题原始挑战全部正确且总用时不超过90秒，另奖20两。使用重启卡补对失败题可拿该题20两，但不补发90秒速度奖。",
+      "加时卡只增加某一题作答时间，不放宽90秒速度条件；二选一卡须在该题提交前使用。",
+      "题目先完整展示或读出，再启动本题计时；提交后人员和数字牌保持不动至核验完成。答错不再接受第二个答案，超时未提交按0分；所需重复数字须由Phillis赛前备足。"
+    ],
+    "score": "每题＋20两；原始5题全对且总用时≤90秒，再＋20两，最高120两。",
+    "usable": "加时卡、重启卡、二选一卡、双倍卡。",
+    "example": "“BSO成立于哪一年？”若经核实答案为2016，4位队员依次举2、0、1、6。此处2016仅为玩法示例，正式答案由Phillis核实。",
+    "ban": "不能手机搜索、使用AI或在提交后调整；不能自行书写代替缺失数字牌。"
+  },
+  {
+    "icon": "📚",
+    "name": "迅哥！！！",
+    "owner": "Round",
+    "time": "参观约10分钟＋5题答题约3分钟",
+    "max": "100两",
+    "goal": "先参观鲁迅纪念馆，再凭记忆接受知识挑战。",
+    "tools": "馆内展览与鲁迅知识题库、核实过的答案表、计分表；开场前落实当天入馆安排。",
+    "steps": [
+      "全队先进入鲁迅纪念馆，自由参观约10分钟，留意展览中的生平、作品与故事。",
+      "参观结束后前往Round所在位置，告知已经参观并开始答题；排队与参观均计入公园总时长。",
+      "Round从馆内展览与鲁迅知识题库随机提问5题，全队可讨论，由队长作出唯一答案。",
+      "每题只有1次提交机会，回答即判对错；建议每题讨论上限30秒，以控制整体用时。",
+      "开始答题后不再回馆查答案，不看笔记、手机、AI，也不向别队求助。五题结束即结算。",
+      "Round明确说“请提交”后由队长答一次，讨论中的口头猜测不作为提交；30秒到仍无明确答案记0分。六队抽取难度相当的题目，不公开后续题库。二选一卡在提交前交出，出示选项后继续原题剩余时间。"
+    ],
+    "score": "每答对1题＋20两，5题全对100两。",
+    "usable": "二选一卡、双倍卡。",
+    "example": "答对4题得80两；使用双倍卡后入账160两，购卡费用70两另记。",
+    "ban": "馆内保持安静、不奔跑、不影响游客；正式问答凭记忆作答。"
   }
 ];
-document.querySelector("#gamecards").innerHTML=games.map((g,i)=>`<details class="game" ${i===0?"open":""}><summary><span class="ico">${g.icon}</span><span><h3>${i+1}. ${g.name}</h3><span class="meta">${g.time} · ${g.max}</span></span><span class="chev">⌄</span></summary><div class="body"><p class="goal"><b>目标：</b>${g.goal}</p><div class="twocol"><div class="mini"><small>时间</small><b>${g.time}</b></div><div class="mini"><small>最高奖励</small><b>${g.max}</b></div></div><h4>所需道具</h4><p>${g.tools}</p><h4>怎么进行</h4><ol class="steps">${g.steps.map(s=>"<li>"+s+"</li>").join("")}</ol><h4 class="ban">禁止事项与边界</h4><p>${g.ban}</p><h4>银票得分与结算</h4><p>${g.score}</p><p class="usable">可使用：${g.usable}</p><div class="example"><b>示例：</b>${g.example}</div></div></details>`).join("");
+const selfTasks=[null,{
+  "icon": "🔎",
+  "name": "Hide and Seek",
+  "owner": "总控线上审核",
+  "time": "随路线完成，计入两小时",
+  "max": "100两",
+  "goal": "根据局部照片＋初始线索找到隐藏地点。",
+  "tools": "A／B／C三组局部照片、初始线索及两级提示、队号牌、手机。",
+  "steps": [
+    "三场开场PK结束后领取照片和初始线索。沿用分配：1、4队找A，2、5队找B，3、6队找C。",
+    "全队自行寻找，不能跟随其他队直接找点，也不能问其他队答案。",
+    "找到后拍摄目标物、除拍照者外的全体队员及队号，照片能与局部线索对应；以“队号＋Hide and Seek＋目标编号”发活动群等待总控核验。工作人员核对原图，不接受借用别队照片或只发定位。",
+    "需要帮助时依次申请一级、二级提示。每级使最终任务奖励减少30两；为避免重复扣款，按最终净奖励结算，不再现场额外收30两。",
+    "有情报卡时，一级提示免费且不减奖励；之后再用二级提示，只减30两。",
+    "照片错误可在截止前重拍；地点核验正确即完成这一格，未找到得0两。"
+  ],
+  "score": "不用提示100两；用1级70两；用2级40两。用情报卡：只用1级仍100两，再用2级为70两。卡费20两另记。",
+  "usable": "情报卡。",
+  "example": "买情报卡花20两，使用两级提示后成功找到，任务入账70两；本过程净增50两。",
+  "ban": "不能进入禁区、翻越围栏、攀爬或移动设施。"
+}];
+const renderCards=(list,startOpen=false)=>list.map((g,i)=>`<details class="game" ${startOpen&&i===0?"open":""}><summary><span class="ico">${g.icon}</span><span><h3>${i+1}. ${g.name}</h3><span class="meta">${g.time} · ${g.max}</span><span class="owner">负责人：${g.owner}</span></span><span class="chev">⌄</span></summary><div class="body"><p class="goal"><b>目标：</b>${g.goal}</p><div class="twocol"><div class="mini"><small>时间</small><b>${g.time}</b></div><div class="mini"><small>最高奖励</small><b>${g.max}</b></div></div><div class="callout"><b>银票得分与结算</b>${g.score}</div><h4>所需道具</h4><p>${g.tools}</p><h4>怎么进行</h4><ol class="steps">${g.steps.map(s=>"<li>"+s+"</li>").join("")}</ol><h4 class="ban">禁止事项与边界</h4><p>${g.ban}</p><p class="usable">可使用：${g.usable}</p><div class="example"><b>示例：</b>${g.example}</div></div></details>`).join("");
+const photoTask={
+  "icon": "📸",
+  "name": "Focus Hunter",
+  "owner": "开场裁判",
+  "time": "每队拍摄30秒；三场依次进行，开场预留30分钟",
+  "max": "100两",
+  "goal": "每次两队PK，其余四队观看；转6圈后拍清对方人脸。",
+  "tools": "普通拍照手机1部、计时器、号码贴、场地标记、记录表；裁判及协助人员。",
+  "steps": [
+    "六队抽签两两配对，共3场，依次上场；只有当前两队入场，另外四队观看。每队选择1名拍摄者、6名被拍摄者，双方互换角色各拍1轮。6人队可由同一人兼任两轮中的不同角色。",
+    "拍摄者站在区域中心，6名对方队员分布在周围边界内。建议划出中心站位圈和外围躲避区，观众站在边界外。",
+    "检查手机使用普通照片模式，关闭Live Photo／动态照片、连拍和录像。裁判记录本轮起止时间，不删除手机原照片。",
+    "拍摄者在中心原地转满6圈，裁判报数，第6圈结束立即开始30秒计时；随后保持中心站位转身取景，不追逐队员。明显站不稳则暂停、换人重新开始。",
+    "被拍摄者可在周围区域走动、转身、蹲下躲镜头；双方不能奔跑、越界或用手、衣物等物品遮脸。",
+    "30秒到立即停止拍照；本版不限制普通单次快门数量。裁判与双方代表只审核本轮照片，不允许事后修图、视频截帧或从Live中挑照片。",
+    "照片需能清楚辨认完整人脸，眼鼻嘴清晰、无遮挡且无明显模糊；一张拍清多人可分别计入，同一人只计1次。裁判逐一勾选对方1—6号身份，双方代表当场核对；有争议的照片立即放大复核，结算确认后不追加新照片。",
+    "交换角色再进行一轮。两队完成后盖开场格、回观赛区；三场全部结束后六队统一解锁其余八格。"
+  ],
+  "score": "每拍清1名不同队员＋15两；6人共90两，拍齐6人再＋10两＝100两。没有PK胜方额外奖励，不扣对方银票。",
+  "usable": "本开场任务不使用道具卡。",
+  "example": "A拍清5人得75两，B拍清6人得100两；两队各得相应银票，无另外的胜负奖金。",
+  "ban": "禁Live、连拍、录像和模糊人脸；观众不能挡镜头、替拍或进入场地。"
+};
+document.querySelector("#gamecards").innerHTML=renderCards(staffedGames,false);
+document.querySelector("#photocards").innerHTML=renderCards([photoTask],true);
+document.querySelector("#selfcards").innerHTML=renderCards([selfTasks[1]],true);
 const items=[
   [
-    "🧭",
-    "情报卡",
-    30,
-    "兑换隐藏点一级提示；已买卡不再另扣一级提示费。二级提示另付30两。",
-    "寻找隐藏点时",
-    "每队1张"
-  ],
-  [
     "⏱️",
-    "时间卡",
-    40,
-    "指定一次计时增加30秒：乐高还原、整场24点或数字/禁词的一题。不延长90分钟总赛程。",
-    "对应计时开始前",
-    "每队1张"
+    "加时卡",
+    30,
+    "Brick Bank还原总表＋30秒；BSO Code Breaker／Code Talker指定1题＋30秒；Blind Shape指定1轮＋30秒。",
+    "对应计时结束前",
+    "全场4张"
   ],
   [
     "🔄",
-    "换题卡",
+    "重启卡",
     40,
-    "数字密码、24点或禁词更换1道同类备用题。原题作废，剩余计时继续。",
-    "提交或失败前",
-    "每队1张"
+    "BSO Code Breaker／Code Talker／Blind Shape：重做1道失败题或1轮，恢复原时限，替换原结果，不重复加分。",
+    "失败后、结算前",
+    "全场3张"
   ],
   [
     "🧠",
-    "记忆闪回卡",
-    50,
-    "乐高额外看10秒，免去普通回看的20两扣款。还原计时不停，每队最多回看一次。",
+    "记忆闪回",
+    20,
+    "Brick Bank指定一组额外观察15秒，观察期间还原计时暂停。",
     "模型遮住后",
-    "每队1张"
+    "全场3张"
   ],
   [
-    "↩️",
-    "重启卡",
-    60,
-    "数字密码/禁词/24点重做1道失败题，按原题时限重计，正确后仅补该题分数。",
-    "判定失败后、结算前",
-    "每队1张"
+    "🥘",
+    "再甩一锅",
+    40,
+    "甩锅BINGO追加1投，可计分、占格、补连线；连线奖全场该队仍只领1次。",
+    "本关结算前",
+    "全场2张"
   ],
   [
-    "🛡️",
-    "保险卡",
-    60,
-    "指定游戏的奖励低于30两时补至30两。保证奖励，不退购卡或提示费用。",
-    "游戏开始前",
-    "每队1张"
+    "🔎",
+    "情报卡",
+    20,
+    "Hide and Seek一级提示免费且不减奖励；之后再用二级提示，找到后最终奖励70两。",
+    "领取一级提示前",
+    "全场3张"
   ],
   [
-    "➕",
-    "加投卡",
-    60,
-    "投壶从10次增加到12次正式投掷，新增2投自由分配，基础奖励最高120两。",
-    "正式投掷开始前",
-    "每队1张"
+    "💡",
+    "二选一卡",
+    20,
+    "BSO Code Breaker／迅哥！！！指定1题提供两个选项；数字题仍需举牌排答案。",
+    "该题提交前",
+    "全场3张"
   ],
   [
-    "🎲",
-    "幸运盲盒",
-    50,
-    "从7种普通卡随机抽1张，可能高于或低于50两；不抽强力卡，也不抽本队已有种类。",
-    "商店现场",
-    "每队1张"
-  ],
-  [
-    "📈",
-    "加成卡",
-    80,
-    "指定游戏奖励增加25%，额外最多25两，小数向下取整；同关不与双倍卡叠加。",
-    "游戏开始前",
-    "每队1张",
-    "power"
-  ],
-  [
-    "✖2",
+    "✖️2",
     "双倍卡",
-    100,
-    "额外奖励＝原奖励，最多额外80两。原奖70则总计140；原奖100则总计180。",
-    "游戏开始前",
-    "全场限2张",
+    70,
+    "Brick Bank／BSO Code Breaker／Code Talker／迅哥！！！／Blind Shape：最终奖励翻倍，额外部分最多＋100两。",
+    "该关开始前",
+    "全场2张",
     "power"
   ],
   [
-    "⭐",
-    "Bingo万能格",
-    100,
-    "指定1个未完成格，仅作首次Bingo临时完成，不获得该格奖励、不计真实格数或Full House。",
-    "申报首次Bingo时",
-    "全场限2张",
-    "power"
+    "🥷",
+    "潜伏护盾",
+    20,
+    "晚餐潜伏者收益翻倍。建议指定1名持卡人：若抽到潜伏者，其60＋40奖励翻倍；普通玩家不适用。",
+    "抽身份前指定持有人",
+    "全场1张"
   ],
   [
-    "🩻",
+    "👁️",
     "X光卡",
-    100,
-    "交卡并指定某轮某箱，私下了解增益/实物/风险类别，不透露金额或具体礼物。",
-    "晚餐拍卖开始前",
-    "全场限2张",
-    "power"
+    60,
+    "查看1个神秘箱的类别，不透露具体奖励。本版公开展示实物拍卖，暂不启用此卡；若保留神秘箱再恢复。",
+    "本版暂停售卖",
+    "原定全场2张"
   ]
 ];
 document.querySelector("#shopgrid").innerHTML=items.map(x=>`<article class="item ${x[6]||""}"><div style="font-size:1.35rem">${x[0]}</div><h3>${x[1]}</h3><div class="price">${x[2]}两</div><p>${x[3]}</p><div class="pills"><span class="pill">${x[4]}</span><span class="pill ${x[6]?"lim":""}">${x[5]}</span></div></article>`).join("");
